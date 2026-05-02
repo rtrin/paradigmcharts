@@ -57,7 +57,7 @@ function apiPlugin(env: Record<string, string>): Plugin {
         }
 
         try {
-          const searchQuery = `Paradigm Reboot ${query}`;
+          const searchQuery = `Paradigm Reboot ${query} chart view`;
 
           const response = await fetch(
             `https://www.googleapis.com/youtube/v3/search?` +
