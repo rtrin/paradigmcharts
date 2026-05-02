@@ -38,8 +38,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="max-w-3xl mx-auto px-4 py-12">
+    <div className="min-h-screen bg-background flex flex-col">
+      <div className="min-w-5/8 mx-auto px-4 py-12 flex-1">
         <h1 className="text-4xl font-bold text-center mb-2 text-foreground">
           Paradigm Charts
         </h1>
@@ -107,6 +107,30 @@ const Index = () => {
           </div>
         )}
       </div>
+
+      <footer className="w-full pb-8 mt-auto text-center text-md text-muted-foreground">
+        <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-row items-center gap-2">
+            <span className="font-medium text-foreground">Paradigm Charts</span>
+            <a
+              href="https://ko-fi.com/S6S41JCXEZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-80 hover:opacity-100 transition-opacity"
+              aria-label="Support on Ko-fi"
+            >
+              <img
+                src="https://storage.ko-fi.com/cdn/kofi5.png?v=6"
+                alt="Buy Me a Coffee at ko-fi.com"
+                className="border-0 h-8 w-[143px]"
+              />
+            </a>
+          </div>
+          <p className="text-xs text-muted-foreground mt-2">
+            Tip: Use <strong>Guided Access</strong> to prevent accidental exits.
+          </p>
+        </div>
+      </footer>
 
       <VideoOverlay
         videoId={selectedVideoId ?? ""}
