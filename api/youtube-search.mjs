@@ -40,10 +40,7 @@ export default async function handler(req, res) {
         order: 'relevance'
       }), {
         headers: {
-          'Referer': process.env.APP_URL ||
-                     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '') ||
-                     req.headers.referer ||
-                     (req.headers.host ? `https://${req.headers.host}` : '')
+          'Referer': process.env.APP_URL || 'https://paradigmcharts.vercel.app'
         }
       }
     );
