@@ -122,7 +122,7 @@ const Index = () => {
               <img
                 src="https://storage.ko-fi.com/cdn/kofi5.png?v=6"
                 alt="Buy Me a Coffee at ko-fi.com"
-                className="border-0 h-8 w-[143px]"
+                className="border-0 h-8"
               />
             </a>
           </div>
