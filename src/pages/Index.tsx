@@ -126,7 +126,10 @@ const Index = () => {
               />
             </a>
           </div>
-          <p className="text-xs text-muted-foreground mt-2">
+          <p className="text-xs opacity-75">
+            If you find this useful, consider supporting us!
+          </p>
+          <p className="text-xs opacity-75">
             Tip: Use <strong>Guided Access</strong> to prevent accidental exits.
           </p>
         </div>
