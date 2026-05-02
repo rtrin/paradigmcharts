@@ -39,7 +39,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <div className="min-w-5/8 mx-auto px-4 py-12 flex-1">
+      <div className="min-w-3/4 mx-auto px-4 py-12 flex-1">
         <h1 className="text-4xl font-bold text-center mb-2 text-foreground">
           Paradigm Charts
         </h1>
